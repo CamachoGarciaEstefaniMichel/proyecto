@@ -11,7 +11,7 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        if (usuario === 'admin' && contraseña === '1234') {
+        if (usuario === 'tutor' && contraseña === 'tutor82') {
             navigate('/dashboard'); // Redirige al dashboard
         } else {
             setError('Usuario o contraseña incorrectos');
