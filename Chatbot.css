@@ -1,0 +1,12 @@
+.chatbot {
+    position: fixed;
+    right: 20px;  /* Lo movemos a la derecha */
+    bottom: 20px;
+    background-color: #ffffff;
+    border: 3px solid #0d5c3e;
+    border-radius: 12px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}

@@ -1,0 +1,58 @@
+body {
+    background-color: #f0f4f3;
+}
+
+.dashboard-container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #0d5c3e;
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+}
+
+.sidebar-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #0a4a30;
+    border-radius: 5px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 3px solid #0d5c3e;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-verde {
+    background-color: #0d5c3e;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-verde:hover {
+    background-color: #0a4a30;
+}
